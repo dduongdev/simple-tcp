@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Workspace\\Socket\\self\\bth6\\bth6.1\\simple-tcp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6B817-F561-4248-B765-E913637FDAAB}|SimpleTcp.csproj|c:\\workspace\\socket\\self\\bth6\\bth6.1\\simple-tcp\\isimpletcpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF6B817-F561-4248-B765-E913637FDAAB}|SimpleTcp.csproj|solutionrelative:isimpletcpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF6B817-F561-4248-B765-E913637FDAAB}|SimpleTcp.csproj|c:\\workspace\\socket\\self\\bth6\\bth6.1\\simple-tcp\\simpletcpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF6B817-F561-4248-B765-E913637FDAAB}|SimpleTcp.csproj|solutionrelative:simpletcpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +47,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SimpleTcpClient.cs",
+              "DocumentMoniker": "C:\\Workspace\\Socket\\self\\bth6\\bth6.1\\simple-tcp\\SimpleTcpClient.cs",
+              "RelativeDocumentMoniker": "SimpleTcpClient.cs",
+              "ToolTip": "C:\\Workspace\\Socket\\self\\bth6\\bth6.1\\simple-tcp\\SimpleTcpClient.cs",
+              "RelativeToolTip": "SimpleTcpClient.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAcwK4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:51:28.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ISimpleTcpClient.cs",
+              "DocumentMoniker": "C:\\Workspace\\Socket\\self\\bth6\\bth6.1\\simple-tcp\\ISimpleTcpClient.cs",
+              "RelativeDocumentMoniker": "ISimpleTcpClient.cs",
+              "ToolTip": "C:\\Workspace\\Socket\\self\\bth6\\bth6.1\\simple-tcp\\ISimpleTcpClient.cs",
+              "RelativeToolTip": "ISimpleTcpClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:50:26.79Z",
+              "EditorCaption": ""
             }
           ]
         }

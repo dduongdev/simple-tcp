@@ -143,5 +143,85 @@ namespace SimpleTcp
 
             Client.Close();
         }
+
+        public int Send(string message)
+        {
+            byte[] vPacket = BuildVirtualPacket(message);
+
+            int totalSentByteCount = 0;
+            while (totalSentByteCount < vPacket.Length)
+            {
+                int sentByteCount = Client.Send(vPacket, totalSentByteCount, vPacket.Length - totalSentByteCount, SocketFlags.None);
+
+                if (sentByteCount == 0)
+                {
+                    throw new ConnectionClosedException();
+                }
+
+                totalSentByteCount += sentByteCount;
+            }
+
+            return totalSentByteCount;
+        }
+
+        public int SendObject<T>(T obj)
+        {
+            string json = JsonSerializer.Serialize(obj, _jsonOptions);
+            return Send(json);
+        }
+
+        public T? ReceiveObject<T>()
+        {
+            byte[] messageBytes = Receive();
+
+            return JsonSerializer.Deserialize<T>(messageBytes, _jsonOptions);
+        }
+
+        public byte[] Receive()
+        {
+            byte[] messageSizeBytes = ReceiveExact(4);
+
+            if (BitConverter.IsLittleEndian)
+            {
+                Array.Reverse(messageSizeBytes);
+            }
+
+            int messageSize = BitConverter.ToInt32(messageSizeBytes);
+
+            if (messageSize <= 0)
+            {
+                throw new InvalidMessageException("Message size must be greater than 0.");
+            }
+
+            if (messageSize > MaxSize)
+            {
+                throw new InvalidMessageException($"Message size cannot greater than {MaxSize}.");
+            }
+
+            byte[] messageBytes = ReceiveExact(messageSize);
+
+            return messageBytes;
+        }
+
+        public byte[] ReceiveExact(int size)
+        {
+            byte[] buffer = new byte[size];
+
+            int totalReceivedByteCount = 0;
+
+            while (totalReceivedByteCount < size)
+            {
+                int receivedByteCount = Client.Receive(buffer, totalReceivedByteCount, size - totalReceivedByteCount, SocketFlags.None);
+
+                if (receivedByteCount == 0)
+                {
+                    throw new ConnectionClosedException();
+                }
+
+                totalReceivedByteCount += receivedByteCount;
+            }
+
+            return buffer;
+        }
     }
 }
