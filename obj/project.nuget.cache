@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EWoZ4F3xvlo=",
+  "dgSpecHash": "ocRLDBEtHfc=",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\Socket\\self\\bth6\\bth6.1\\Server\\SimpleTcp\\SimpleTcp.csproj",
+  "projectFilePath": "C:\\Workspace\\Socket\\self\\bth6\\bth6.1\\simple-tcp\\SimpleTcp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

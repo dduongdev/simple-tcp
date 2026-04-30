@@ -9,3 +9,15 @@ C:\Workspace\Socket\self\bth6\bth6.1\Server\SimpleTcp\obj\Debug\net9.0\SimpleTcp
 C:\Workspace\Socket\self\bth6\bth6.1\Server\SimpleTcp\obj\Debug\net9.0\refint\SimpleTcp.dll
 C:\Workspace\Socket\self\bth6\bth6.1\Server\SimpleTcp\obj\Debug\net9.0\SimpleTcp.pdb
 C:\Workspace\Socket\self\bth6\bth6.1\Server\SimpleTcp\obj\Debug\net9.0\ref\SimpleTcp.dll
+C:\Workspace\Socket\self\bth6\bth6.1\simple-tcp\bin\Debug\net9.0\SimpleTcp.deps.json
+C:\Workspace\Socket\self\bth6\bth6.1\simple-tcp\bin\Debug\net9.0\SimpleTcp.dll
+C:\Workspace\Socket\self\bth6\bth6.1\simple-tcp\bin\Debug\net9.0\SimpleTcp.pdb
+C:\Workspace\Socket\self\bth6\bth6.1\simple-tcp\obj\Debug\net9.0\SimpleTcp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Socket\self\bth6\bth6.1\simple-tcp\obj\Debug\net9.0\SimpleTcp.AssemblyInfoInputs.cache
+C:\Workspace\Socket\self\bth6\bth6.1\simple-tcp\obj\Debug\net9.0\SimpleTcp.AssemblyInfo.cs
+C:\Workspace\Socket\self\bth6\bth6.1\simple-tcp\obj\Debug\net9.0\SimpleTcp.csproj.CoreCompileInputs.cache
+C:\Workspace\Socket\self\bth6\bth6.1\simple-tcp\obj\Debug\net9.0\SimpleTcp.sourcelink.json
+C:\Workspace\Socket\self\bth6\bth6.1\simple-tcp\obj\Debug\net9.0\SimpleTcp.dll
+C:\Workspace\Socket\self\bth6\bth6.1\simple-tcp\obj\Debug\net9.0\refint\SimpleTcp.dll
+C:\Workspace\Socket\self\bth6\bth6.1\simple-tcp\obj\Debug\net9.0\SimpleTcp.pdb
+C:\Workspace\Socket\self\bth6\bth6.1\simple-tcp\obj\Debug\net9.0\ref\SimpleTcp.dll

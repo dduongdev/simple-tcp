@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\Socket\\self\\bth6\\bth6.1\\Server\\SimpleTcp\\SimpleTcp.csproj",
+      "projectUniqueName": "C:\\Workspace\\Socket\\self\\bth6\\bth6.1\\simple-tcp\\SimpleTcp.csproj",
       "projectName": "SimpleTcp",
-      "projectPath": "C:\\Workspace\\Socket\\self\\bth6\\bth6.1\\Server\\SimpleTcp\\SimpleTcp.csproj",
+      "projectPath": "C:\\Workspace\\Socket\\self\\bth6\\bth6.1\\simple-tcp\\SimpleTcp.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\Socket\\self\\bth6\\bth6.1\\Server\\SimpleTcp\\obj\\",
+      "outputPath": "C:\\Workspace\\Socket\\self\\bth6\\bth6.1\\simple-tcp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
